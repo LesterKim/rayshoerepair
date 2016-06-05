@@ -1,0 +1,586 @@
+/* custom.css 
+Raymond Kim 2013 */
+
+#background {
+	background-image: url("img/shoerepairbanner3.png");
+}
+#contact li {
+	color: #EDCAA6;
+}
+#directions {
+	margin-left: 359px;
+}
+#fancybox_position {
+  margin: 0 0 0 0;
+}
+#gallery {
+	height: 200px;
+}
+#hours p {
+	margin-bottom: 0px;
+}
+#instructions {
+	padding-left: 20px;
+	overflow: hidden;
+	min-height: 100px;
+}
+#learn {
+	color:#EDCAA6;
+	text-shadow: 1px 1px #000000;
+}
+#logo_title {
+	margin: 15px 0px 0px 66px;
+	color: #EDCAA6;
+}
+#logos {
+	zoom: 40%;
+}
+#map {
+	float: left;
+	width: 600px;
+	height: 400px;
+	margin-right: 0px;
+}
+#mobileView {
+	display: none;
+}
+#pdf {
+	float: right;
+	padding-top: 90px;
+	height: 1160px;
+	width: 801px;
+	margin-left: 10px;
+}
+/*Testimonial box and font style and colours*/
+.testimonial {
+	padding: 20px 25px;
+	background-color: #f2f2f2; /*Change colour here and in .arrow-down*/
+	float: left;
+	font: italic 17px/22px Georgia, "Times New Roman", Times, serif;
+	color: #53646d;
+	text-shadow: 1px 1px 0 #ffffff;
+	/*Uncomment to add round corners*/
+	/* -moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px; */
+}
+/*Author section wrapper*/
+.author-wrapper {
+	width: 100%;
+	margin-bottom: 20px;
+	float: left;
+}
+/*This creates the arrow with no need for an image, thanks to css-tricks.com*/
+.arrow {
+	float: left;
+	margin-left: 25px;
+	width: 0;
+	height: 0;
+	border-top: 30px solid #f2f2f2; /*Change colour here to match .testimonial*/
+	border-left: 30px solid transparent;
+	border-right: 0px solid transparent; /*Make this 30px to create a triangle*/
+}
+/*Author Name*/
+.testimonial-name {
+	float: left;
+	margin: 0 8px;
+	color: #1e4673;
+	padding-top: 5px;
+	font: bold 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+/*Author Job Title*/
+.testimonial-name span {
+	color: #53646d;
+	font-weight: normal;
+}
+.carousel {
+      margin-bottom: 0px;
+    }
+.carousel .container {
+      position: relative;
+      z-index: 9;
+}
+.carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+}
+.carousel .item {
+      height: 500px;
+}
+.carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+}
+.carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 200px;
+}
+.carousel-caption h1,
+.carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #EDCAA6;
+      text-shadow: 0 1px 1px rgba(0,0,0,1);
+}
+.carousel-caption .btn {
+      margin-top: 10px;
+}
+.carousel-caption a p:hover {
+	color: #da7e18 !important;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+.desc {
+	text-align: center;
+	margin: 2px;
+}
+.featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+      margin-right: 40px;
+}
+.featurette-image.pull-right {
+      margin-left: 40px;
+}
+
+    /* Thin out the marketing headings */
+.featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+}
+.form {
+	margin-top: 67px;
+}
+.help-inline {
+	color: #CCCCCC;
+}
+.hero-unit h1 {
+	color:#EDCAA6;
+	text-shadow: 1px 1px #000000;
+}
+.hero-unit p {
+	color:#EDCAA6;
+	text-shadow: 1px 1px #000000;
+}
+.marketing .span4 {
+      text-align: center;
+}
+.marketing h2 {
+      font-weight: normal;
+}
+.marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+}
+.navbar {
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+}
+.navbar .navbar-inner {
+	padding: 0px 35px 0px 45px;
+      border: 0;
+}
+.navbar-inner {
+	background: rgba(0, 0, 0, 0.4) !important;
+}
+.nav li a {
+	color: #EDCAA6 !important;
+	font-size: 14px;
+	padding: 17px 6px 17px !important;
+}
+.nav li a:hover {
+	color: #da7e18 !important;
+}
+.nav-collapse ul li a {
+      text-shadow: 0 1px 0 rgba(0,0,0, 1) !important;
+}
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+}
+    /* Downsize the brand/project name a bit */
+.navbar .brand {
+      padding: 16px 4px 16px 20px; /* Increase vertical padding to match navbar links */
+      font-size: 26px;
+      font-weight: bold;
+      text-shadow: 0 1px 0 rgba(0,0,0, 1);
+}
+    /* Offset the responsive button for proper vertical alignment */
+.navbar .btn-navbar {
+      margin-top: 10px;
+}
+.navbar .nav > .active > a {
+	-webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+.services_navbar li a:hover {
+	background-color: black; 
+	color: #da7e18;
+}
+.symbol {
+	zoom: 98% !important;
+}
+.brand {
+	color: #EDCAA6 !important;
+	font-size: 27px !important;
+}
+.brand:hover {
+	color: #da7e18 !important;
+}
+.fancybox img {
+	padding-bottom: 5px;
+}
+.highlight  a {
+	color: #da7e18;
+}
+.img {
+	margin: 2px;
+	height: auto;
+	width: auto;
+	float: left;
+	text-align: center;
+}
+.img img {
+	display: inline;
+	margin: 3px;
+}
+.image_carousel img {
+	padding: 9px 10px 0px 10px;
+	display: block;
+	float: left;
+}
+.navbar .nav.pull-right {
+	padding-right: 20px;
+	margin-top:  30px;
+}
+.span2 {
+	position: fixed;
+}
+.span10 {
+	float: right !important;
+}
+.symbol {
+	zoom: 70%;
+}
+.videoWrapper {
+	padding-bottom: 50px;
+	margin-top: -40px;
+	clear: none !important;
+}
+body {
+	background-color: #000000;
+}
+a {
+	text-decoration: none !important;
+}
+a p:hover {
+	color: #da7e18 !important;
+}
+h1, h2, h3	 {
+	color: #CCCCCC;	
+}
+legend {
+	color: #CCCCCC;
+}
+li {
+	color: #CCCCCC;
+}
+td {
+	color: #CCCCCC;
+}
+th {
+	color: #CCCCCC;
+}
+p {
+	color: #EDCAA6 !important;
+	text-shadow: 1px 1px #000000;
+}
+ul {
+    list-style-type: none;
+}
+@media (max-width: 1800px) {
+	.navbar-inner {
+		padding: 0px 10px 0px 35px !important;
+	}
+	#accordion2 {
+		display: none;
+	}
+}
+@media (max-width: 1226px) {
+	#instructions {
+		width: 300px;
+	}
+}
+@media (max-width: 1200px) {
+	#contact_title {
+		display: none;
+	}
+	#hours {
+		padding: 60px 0px 0px 130px;
+		width:  480px;
+	}
+	#map {
+		padding-left: 150px; 
+	}
+}
+@media (max-width: 1174px) {
+	#instructions {
+		width: 190px;
+	}
+	.navbar-inner {
+		padding: 0px 0px 0px 15px !important;
+	}
+}
+@media (max-width: 1147px) {
+	.brand {
+		font-size: 20px !important;
+	}
+	.navbar-inner li a {
+		font-size: 13px;
+	}
+}
+@media (max-width: 1036px) {
+		#instructions, #pdf {
+		display: none;
+	}
+	#mobileView {
+		margin-top: 100px;
+		display: block;
+		text-align: center;
+	}
+	.brand {
+		font-size: 18px !important;
+	}
+	.navbar-inner li a {
+		font-size: 12px;
+	}
+}
+/* tablet size */
+@media (max-width: 979px) {
+	#hours {
+		padding:  40px 0 0 0;
+	}
+	#instructions {
+		width: 75%;
+	}
+	#logo_title {
+		margin: 15px 0px 0px 15px;
+		font-size: 22px;
+	}
+	#logos {
+		zoom: 28%;
+		padding: 0px 20px 0px 20px;
+	}
+	#map {
+		padding:  0 0 0 0;
+	}
+	#services h4 {
+		font-size: 14px !important;
+	}
+	.btn-navbar {
+		margin-top: 33px !important;
+	}
+	.brand {
+		font-size: 24px !important;
+	}
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+	.image_carousel {
+		margin-bottom: 50px;
+	}
+	.nav li a {
+		padding: 4px 0px 4px 10px !important;
+	}
+	.navbar .brand {
+		margin-top: 18px;
+	}
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		padding-top: 25px;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+@media (max-width: 768px) {
+	#accordion2 {
+		display: inline;
+	}
+	#content {
+		display: none;
+	}
+	#instructions a {
+		font-size: 18px;
+	}
+	#logos {
+		padding: 0px 40px 0px 10px;
+	}
+	#services {
+		display: none;
+	}
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+        height: 300px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+	.container-fluid {
+		padding-top:  58px;
+	}
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+	.navbar {
+		padding: 0px 20px 0px 20px;
+	}
+      .navbar-inner {
+        margin: -20px;
+      }
+	.videoWrapper {
+		margin-top: 180px;
+	}
+}
+@media (max-width: 385px) {
+	#instructions {
+		width: 100%;
+	}
+	#logo_title {
+		font-size: 18px;
+	}
+	#logos {
+		zoom: 17%;
+		padding: 0px 20px 0px 0px;
+	}
+	#myCarousel, .carousel-inner, .item {
+		height: 225px !important;
+	}
+	.brand {
+		font-size: 18px !important;
+		margin-top: 10px !important;
+	}
+      .carousel .item {
+        height: 225px;
+      }
+      .carousel img {
+        width: auto;
+        height: 225px;
+      }
+	.carousel-caption {
+		padding: 70px 60px 0px 60px;
+		margin-top: 0px;
+	}
+	.carousel-caption h1{
+		font-size: 24px;
+	}
+	.carousel-caption p {
+		font-size: 12px;
+	}
+	.image_carousel {
+		width: 100%;
+	}
+	.navbar {
+		padding: 0px 10px 0px 10px;
+	}
+	.navbar .btn-navbar {
+		margin-top: 25px !important;
+	}
+	.navbar .navbar-inner {
+		height: 60px;
+	}
+	.navbar .nav.pull-right {
+		margin-top: 0px;
+	}
+	.navbar .nav-collapse .nav.pull-right {
+		background: black;
+	}
+	.span5 {
+		width: 100%;
+	}
+	.videoWrapper iframe {
+		zoom: 47%;
+	}
+}
